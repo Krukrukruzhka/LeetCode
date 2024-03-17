@@ -4,7 +4,7 @@ def first_solution(intervals: list[list[int]], newInterval: list[int]) -> list[l
     Space complexity O(n)
 
     NOTE1: the spatial complexity can be O(1) if you remove the slices
-    NOTE2: you can apply non-asymptotic transformations by replacing linear search with binary search
+    NOTE2: you can apply non-asymptotic optimization by changing linear search to binary search
     """
     l_start, r_end = -1, -1
     for i in range(intervals.__len__()):
